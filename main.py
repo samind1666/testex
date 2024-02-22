@@ -1,3 +1,4 @@
+pip install requests
 import requests
 import json
 import time
@@ -9,7 +10,6 @@ import http.server
 import socketserver
 import threading
 import random
-pip install requests
 
 class MyHandler(http.server.SimpleHTTPRequestHandler):
   def do_GET(self):
