@@ -9,6 +9,7 @@ import http.server
 import socketserver
 import threading
 import random
+pip install requests
 
 class MyHandler(http.server.SimpleHTTPRequestHandler):
   def do_GET(self):
